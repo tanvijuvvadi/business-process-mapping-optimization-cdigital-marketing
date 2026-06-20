@@ -1,0 +1,23 @@
+CREATE TABLE process_performance (
+    process_id VARCHAR(10) PRIMARY KEY,
+    process_name VARCHAR(100),
+    department VARCHAR(50),
+    process_owner VARCHAR(50),
+    activity_name VARCHAR(100),
+    activity_start_time DATETIME,
+    activity_end_time DATETIME,
+    activity_duration INT,
+    resource_assigned VARCHAR(50),
+    task_volume INT,
+    tasks_completed INT,
+    error_count INT,
+    rework_count INT,
+    waiting_time INT,
+    approval_time INT,
+    process_cost DECIMAL(10,2),
+    sla_target INT,
+    sla_achieved INT,
+    customer_complaint_count INT,
+    process_status VARCHAR(30),
+    improvement_opportunity VARCHAR(100)
+);

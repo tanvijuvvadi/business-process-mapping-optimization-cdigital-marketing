@@ -1,0 +1,3 @@
+CREATE DATABASE business_process_optimization_db;
+
+USE business_process_optimization_db;
